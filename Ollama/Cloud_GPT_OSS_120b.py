@@ -24,3 +24,5 @@ messages = [
 # Stream chat output
 for part in client.chat('gpt-oss:120b', messages=messages, stream=True):
     print(part['message']['content'], end='', flush=True)
+
+#https://ollama.com/library/gpt-oss
