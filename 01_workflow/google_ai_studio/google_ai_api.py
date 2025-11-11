@@ -1,3 +1,7 @@
+# free quota for developers account - tested ok
+#https://ai.google.dev/gemini-api/docs/quickstart
+# in your venu --> uv pip install google-genai
+
 import os
 from dotenv import load_dotenv
 from google import genai
@@ -14,5 +18,4 @@ response = client.models.generate_content(
 )
 print(response.text)
 
-#https://ai.google.dev/gemini-api/docs/quickstart
-# in your venu --> uv pip install google-genai
+
