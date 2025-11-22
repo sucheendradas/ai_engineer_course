@@ -17,9 +17,9 @@ async def main():
     # Run the joke with Runner.run(agent, prompt) then print final_output   
 
     # workflow - "Telling a joke"
-    # model       - "gpt-4.1-nano"
+    # model    - "gpt-4.1-nano"
     # flow     - "jokester"
-    # instructions- "You are a joke teller" (System Instructions)
+    # instructions   - "You are a joke teller" (System Instructions)
     # input (user)   - "Tell a joke about Autonomous AI Agents"
     # output (final) - result.final_output
 
