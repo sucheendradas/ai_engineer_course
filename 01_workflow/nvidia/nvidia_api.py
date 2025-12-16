@@ -1,4 +1,8 @@
 
+#nvida
+#https://docs.api.nvidia.com/
+#https://build.nvidia.com/settings/api-keys
+
 import os
 import dotenv
 dotenv.load_dotenv()
